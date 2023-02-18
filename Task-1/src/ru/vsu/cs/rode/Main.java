@@ -2,6 +2,17 @@ package ru.vsu.cs.rode;
 
 // Task - 1; exercise - 12
 
+/*
+    Возможности:
+    1) Переименовать столбец
+    2) Установить значение
+    3) Вернуть значение
+    4) обратиться к ячейке(полиморфизм)
+    5) добавить/удалить строку
+    6) добавить/удалить столбец
+
+ */
+
 public class Main {
     public static void main(String[] args){
         DataTable table = new DataTable();

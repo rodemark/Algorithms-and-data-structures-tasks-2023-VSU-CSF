@@ -1,7 +1,6 @@
 package ru.vsu.cs.rode;
 
 import java.util.HashMap;
-
 import static ru.vsu.cs.rode.Test.printArray;
 
 public class DataTable {
@@ -26,6 +25,7 @@ public class DataTable {
         this.col = col;
         return this;
     }
+
 
     public DataTable cell(String col, int row){ // столбец именованный - строка
         this.col = nameColumn.get(col);
